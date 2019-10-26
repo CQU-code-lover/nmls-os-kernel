@@ -1,0 +1,25 @@
+
+kernel：     文件格式 elf32-i386
+
+节：
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .init.text    00001000  00100000  00100000  00001000  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .init.data    00001000  00101000  00101000  00002000  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .text         00002000  c0102000  00102000  00003000  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .text.__x86.get_pc_thunk.ax 00000004  c0104000  00104000  00005000  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .text.__x86.get_pc_thunk.bx 00000004  c0104004  00104004  00005004  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .data         00000ff8  c0104008  00104008  00005008  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .got.plt      0000000c  c0105000  00105000  00006000  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  7 .bss          00083c80  c0105020  00105020  0000600c  2**5
+                  ALLOC
+  8 .stab         00004360  c0188ca0  00188ca0  00089ca0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  9 .stabstr      00002000  c018d000  0018d000  0008e000  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
